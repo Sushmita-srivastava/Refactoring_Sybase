@@ -1,0 +1,165 @@
+.navigation{
+    margin: 0px auto;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 1.4px;
+}
+.navigation .item{
+    position:absolute;
+}
+.user{
+    top:220px;
+    left:15px;
+}
+.home{
+   top:160px;
+   left:95px;
+}
+.shop{
+   top:105px;
+   left:185px;
+}
+.camera{
+   top:70px;
+   left:285px;
+}
+.fav{
+   top:65px;
+   left:470px;
+}
+.fav1{
+   top:105px;
+   left:630px;
+}
+.fav2{
+   top:190px;
+   left:770px;
+}
+.fav3{
+   top:270px;
+   left:850px;
+}
+.fav4{
+   top:340px;
+   left:900px;
+}
+.fav5{
+   top:430px;
+   left:940px;
+}
+.fav6{
+   top:520px;
+   left:965px;
+}
+a.icon{
+    width:52px;
+    height:52px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    cursor:pointer;
+}
+.user a.icon{
+    background:transparent url(../images/ingestion.png) no-repeat 0px 0px;
+	border-radius: 50%;
+}
+.home a.icon{
+    background:transparent url(../images/ingestion.png) no-repeat 0px 0px;
+	border-radius: 50%;
+}
+.shop a.icon{
+    background:transparent url(../images/etl.png) no-repeat 0px 0px;
+	border-radius: 50%;
+}
+.camera a.icon{
+    background:transparent url(../images/masking.png) no-repeat 0px 0px;
+	border-radius: 50%;
+}
+.fav a.icon{
+    background:transparent url(../images/metadata.png) no-repeat 0px 0px;
+	border-radius: 50%;
+}
+.fav1 a.icon{
+    background:transparent url(../images/trigger.png) no-repeat 0px 0px;
+	border-radius: 50%;
+}
+.fav2 a.icon{
+    background:transparent url(../images/lineage.png) no-repeat 0px 0px;
+	border-radius: 50%;
+}
+.fav3 a.icon{
+    background:transparent url(../images/profiling.png) no-repeat 0px 0px;
+	border-radius: 50%;
+}
+.fav4 a.icon{
+    background:transparent url(../images/modeling.png) no-repeat 0px 0px;
+	border-radius: 50%;
+}
+.fav5 a.icon{
+    background:transparent url(../images/streaming.png) no-repeat 0px 0px;
+	border-radius: 50%;
+}
+.fav6 a.icon{
+    background:transparent url(../images/entitlement.png) no-repeat 0px 0px;
+	border-radius: 50%;
+}
+.navigation .item a.active{
+    background-position:0px -52px;
+}
+.item img.circle{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:52px;
+    height:52px;
+    opacity:0.1;
+}
+.item h2{
+    position:absolute;
+    width:147px;
+    height:52px;
+    color:#222;
+    font-size:18px;
+    top:0px;
+    left:52px;
+    text-indent:10px;
+    line-height:52px;
+    text-shadow:1px 1px 1px #fff;
+    text-transform:uppercase;
+}
+.item h2.active{
+    color:#fff;
+    text-shadow:1px 0px 1px #555;
+}
+.item ul{
+    list-style:none;
+    position:absolute;
+    top:60px;
+    left:25px;
+    display:none;
+}
+.item ul li a{
+    font-size:15px;
+    text-decoration:none;
+    letter-spacing:1.5px;
+    text-transform:uppercase;
+    color:#222;
+    padding:3px;
+    float:left;
+    clear:both;
+    width:225px;
+    text-shadow:1px 1px 1px #fff;
+}
+.item ul li a:hover{
+    background-color:#fff;
+    color:#444;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    -moz-box-shadow:1px 1px 4px #666;
+    -webkit-box-shadow:1px 1px 4px #666;
+    box-shadow:1px 1px 4px #666;
+}
+
